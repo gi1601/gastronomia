@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(9, 4, 83);
+    color: #fff;
+    display: flex;
+    height: 70px;
+    padding:20px;
+}
+
+header h1 {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;   
+    display: flex;
+    
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+}
+
+.hero {
+    background-image: url("img/culinaria-e-gastronomia-voce-sabe-a-diferenca-entre-as-duas\ 1.png");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: grid;  
+    align-items: center;
+}
+
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.btn-hero {
+    background-color: #fff;
+    color: #333;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-hero:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: #f2f2f2;
+    
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.about li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.pricing {
+    padding: 50px 20px;
+    background-color: #e6e6e6;
+    
+}
+
+.pricing h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pricing ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.pricing li {
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.pricing p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.btn-pricing {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-pricing:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.coisas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.about{
+    background-color: #e6e6e6;
+}
+
+.lala{
+    margin: 15px;
+}
+
+.italiana , .japonesa , .confeitaria , .panificacao{
+    background-size: cover;
+    border: 1.8px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 250px;
+    padding: 5px;
+    margin: 12px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.lili :hover{
+    padding: 2px;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-verde{
+    color: #fff;
+}
+
+
+.texto{
+    color: #fff;
+}
+
+.italiana{
+    background-image: url(img/culinaria-italiana-1170x762\ 1.png);
+}
+
+.japonesa{
+    background-image: url(img/comida-japonesa\ 1.png);
+}
+
+.confeitaria{
+    background-image: url(img/confeitaria\ 1.png);
+}
+
+.panificacao{
+    background-image: url(img/vista-superior-de-variedade-de-pastelaria-doce\ 1.png);
+}
+
+.lili{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 5px;
+    gap: 20px;
+}
+
+
+.jac img{
+    width: 500px;
+    border-radius: 15px;
+}
+
+.lele{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ins{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.aa{
+    padding: 15px;
+}

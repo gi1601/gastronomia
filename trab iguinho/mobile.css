@@ -1,0 +1,29 @@
+@media(max-width:426px){
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+    .jac img {
+        width: 200px;
+
+    }
+
+    .lili{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .italiana , .japonesa , .confeitaria , .panificacao{
+        width: 200px;
+    }
+
+}
+
+@media(max-width:321px){
+    .jac img{
+        width: 100px;
+    }
+
+}
+
